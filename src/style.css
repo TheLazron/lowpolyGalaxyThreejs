@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
 *
 {
     margin: 0;
@@ -9,10 +10,31 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background-image: linear-gradient(#e4ac89, #1D2671);
+}
+
+.content{
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:5rem;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    mix-blend-mode:color-dodge;
+}
+
+.content h1{
+    background: -webkit-linear-gradient(120deg,rgb(31, 30, 30), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .webgl
 {
+    z-index: 4;
     position: fixed;
     top: 0;
     left: 0;
